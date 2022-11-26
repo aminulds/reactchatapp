@@ -35,15 +35,15 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-const truncateText = (string, n) => {
-  return string.length > n ? `${string.slice(0, n)}...` : string;
-};
+// const truncateText = (string, n) => {
+//   return string.length > n ? `${string.slice(0, n)}...` : string;
+// };
 
-const StyledChatBox = styled(Box)(({ theme }) => ({
-  "&:hover": {
-    cursor: "pointer",
-  },
-}));
+// const StyledChatBox = styled(Box)(({ theme }) => ({
+//   "&:hover": {
+//     cursor: "pointer",
+//   },
+// }));
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
