@@ -18,7 +18,7 @@ const DashboardLayout = () => {
   return (
     <>
       <Stack direction="row">
-        <Box p={2} sx={{ backgroundColor: theme.palette.background.paper, boxShadow: "0 0 2px rgba(0,0,0,0.25)", height: '100vh', width: 100 }}>
+        <Box p={2} sx={{ backgroundColor: theme.palette.background.paper, boxShadow: "0 0 2px rgba(0,0,0,0.25)", height: '100vh', width: '100px' }}>
           <Stack spacing={3} direction="column" alignItems="center" justifyContent="space-between" height="100%">
             <Stack alignItems="center" spacing={3}>
               <Box sx={{ backgroundColor: theme.palette.primary.main, height: 64, width: 64, borderRadius: 1.5 }}>
@@ -61,7 +61,7 @@ const DashboardLayout = () => {
                   onToggleMode();
                 }}
               />
-              <Avatar src={ChatList[0].img} />
+              <Avatar src={ChatList[7].img} />
             </Stack>
           </Stack>
         </Box>

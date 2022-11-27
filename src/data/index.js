@@ -125,7 +125,7 @@ const ChatList = [
     time: "08:42",
     unread: 0,
     pinned: false,
-    online: false,
+    online: true,
   },
 ];
 
